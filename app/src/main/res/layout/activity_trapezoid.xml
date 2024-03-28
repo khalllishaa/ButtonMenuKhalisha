@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bangun_datar.trapezoid">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <FrameLayout
+            android:id="@+id/trapezoid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trapezoidd"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/trapezoid"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/persegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/trapezoid"
+            android:textSize="30sp"
+            app:layout_constraintTop_toBottomOf="@id/trapezoidd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/sisi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/sisi_sejajar_a"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/backgroundbtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/persegi"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/sisi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/sisi_sejajar_b"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/backgroundbtn"
+            android:paddingBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sisi1"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/tinggi"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/backgroundbtn"
+            android:paddingBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sisi2"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/buttonHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundhasil"
+            android:text="@string/hitung"
+            android:textColor="#ffff"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tinggi" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/_0"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/backgroundhasil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonHitung" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundhasil"
+            android:text="@string/clear"
+            android:textColor="#ffff"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonBack"
+            app:layout_constraintTop_toBottomOf="@+id/txtHasil" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundhasil"
+            android:text="@string/back"
+            android:textColor="#ffff"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/baseline_arrow_back_24"
+            app:layout_constraintEnd_toStartOf="@+id/buttonClear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHasil" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
