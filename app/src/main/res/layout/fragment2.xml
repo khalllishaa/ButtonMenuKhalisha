@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorBack">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,6 +24,7 @@
             android:layout_marginTop="20dp"
             android:textStyle="italic"
             android:text="@string/volume"
+            android:fontFamily="@font/lmi"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +37,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="20dp"
             android:text="@string/bangun_ruang"
+            android:fontFamily="@font/lb"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -61,7 +64,7 @@
             <LinearLayout
                 android:id="@+id/layouts"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -83,6 +86,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="cube"
+                    android:fontFamily="@font/mungil"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -92,7 +96,7 @@
             <LinearLayout
                 android:id="@+id/layoutr"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -115,6 +119,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="cuboid"
+                    android:fontFamily="@font/mungil"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -124,7 +129,7 @@
             <LinearLayout
                 android:id="@+id/layoutc"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -146,6 +151,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="cone"
+                    android:fontFamily="@font/mungil"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -155,7 +161,7 @@
             <LinearLayout
                 android:id="@+id/layoutt"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -178,6 +184,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="cylinder"
+                    android:fontFamily="@font/mungil"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -187,7 +194,7 @@
             <LinearLayout
                 android:id="@+id/layoutp"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -209,6 +216,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="pyramid"
+                    android:fontFamily="@font/mungil"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -218,7 +226,7 @@
             <LinearLayout
                 android:id="@+id/layouth"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -241,6 +249,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="prism"
+                    android:fontFamily="@font/mungil"
+
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -250,7 +260,7 @@
             <LinearLayout
                 android:id="@+id/layoutrh"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/white_rectangle_background"
@@ -274,7 +284,8 @@
                     android:text="sphere"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:fontFamily="@font/mungil" />
 
             </LinearLayout>
 

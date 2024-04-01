@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bangun_datar.rhombus">
+    tools:context=".bangun_datar.rhombus"
+    android:background="@color/colorBack">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,9 +37,26 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/rhombus"
+            android:fontFamily="@font/mungil"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp"
             android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/rhombuss"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/belah_ketupatt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rumus_d1_d2"
+            android:fontFamily="@font/mungil"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/belah_ketupat"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textStyle="bold" />
@@ -50,6 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="@string/diagonal_1"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:inputType="number"
             android:gravity="center"
             android:layout_marginStart="20dp"
@@ -59,7 +79,7 @@
             android:background="@drawable/backgroundbtn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/belah_ketupat"
+            app:layout_constraintTop_toBottomOf="@+id/belah_ketupatt"
             android:autofillHints="" />
 
         <EditText
@@ -68,6 +88,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="@string/diagonal_2"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:inputType="number"
             android:gravity="center"
             android:layout_marginStart="20dp"
@@ -86,6 +108,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/backgroundhasil"
             android:text="@string/hitung"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:textColor="#ffff"
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
@@ -115,6 +139,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/backgroundhasil"
             android:text="@string/clear"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:textColor="#ffff"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -127,6 +153,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/backgroundhasil"
             android:text="@string/back"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:textColor="#ffff"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/baseline_arrow_back_24"

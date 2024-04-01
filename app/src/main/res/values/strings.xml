@@ -65,6 +65,21 @@
     <string name="calculator_khalisha">Calculator KhalisHa</string>
     <string name="let_s_start">Let\'s Start!</string>
     <string name="kkaylanasywa_gmail_com">kkaylanasywa@gmail.com</string>
+    <string name="rumus_x_r">rumus: π x r²</string>
+    <string name="rumus_a_x_t">rumus: a x t</string>
+    <string name="rumus_p_x_l">rumus: p x l</string>
+    <string name="rumus_p_l">rumus_p_×_l</string>
+    <string name="rumus_p_ll">rumus: p × l</string>
+    <string name="p">rumus: p × l</string>
+    <string name="d1_d2">½ × d1 × d2</string>
+    <string name="rumus_d1_d2">rumus: ½ × d1 × d2</string>
+    <string name="rumus_sisi_sisi">rumus: sisi × sisi</string>
+    <string name="rumus_1_2_t_a_b">rumus: 1/2 × t ( a + b )</string>
+    <string name="rumus_x_a_x_t">rumus: ½ x a x t</string>
+    <string name="rumus_s_s_s_s">rumus: s × s × s / s³</string>
+    <string name="rumus_p_l_t">rumus: p × l × t</string>
+    <string name="rumus_r2_t">rumus: π × r2 × t</string>
+    <string name="rumus_1_3_l_alas_t">rumus: 1/3 × L (alas) × t</string>
 
 
 </resources>

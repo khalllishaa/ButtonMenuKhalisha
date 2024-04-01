@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bangun_datar.circle">
+    tools:context=".bangun_datar.circle"
+    android:background="@color/colorBack">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,9 +37,26 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/circle"
+            android:fontFamily="@font/mungil"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="30sp"
             android:layout_marginTop="10dp"
             app:layout_constraintTop_toBottomOf="@id/circlee"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lingkarann"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rumus_x_r"
+            android:fontFamily="@font/mungil"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/lingkaran"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textStyle="bold" />
@@ -50,6 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="@string/jari_jari"
+            android:fontFamily="@font/mungil"
+            android:textColor="@color/colorPrimaryDark"
             android:inputType="number"
             android:gravity="center"
             android:layout_marginStart="20dp"
@@ -59,7 +79,7 @@
             android:background="@drawable/backgroundbtn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/lingkaran"
+            app:layout_constraintTop_toBottomOf="@+id/lingkarann"
             android:autofillHints="" />
 
 
@@ -70,6 +90,8 @@
             android:background="@drawable/backgroundhasil"
             android:text="@string/hitung"
             android:textColor="#ffff"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
             android:layout_marginTop="10dp"
@@ -98,6 +120,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/backgroundhasil"
             android:text="@string/clear"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:textColor="#ffff"
             android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -110,6 +134,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/backgroundhasil"
             android:text="@string/back"
+            android:fontFamily="@font/mungil"
+            android:textSize="20sp"
             android:textColor="#ffff"
             android:layout_marginTop="10dp"
             android:drawableStart="@drawable/baseline_arrow_back_24"

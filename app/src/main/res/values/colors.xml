@@ -3,9 +3,11 @@
     <color name="colorPrimary">#81689D</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#C7C8CC</color>
-    <color name="colorPrimaryLight">#E9F8F1</color>
+    <color name="colorBack">#BB9CC0</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackground">#AD88C6</color>
-    <color name="colorbuttonHasil">#FF7ED4</color>
+    <color name="colorbuttonHasil">#916DB3</color>
     <color name="colorLogin">#81689D</color>
+    <color name="font">#D0A2F7</color>
+    <color name="bcfont">#451952</color>
 </resources>
