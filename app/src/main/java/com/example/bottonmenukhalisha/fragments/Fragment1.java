@@ -21,8 +21,6 @@ import com.example.bottonmenukhalisha.bangun_datar.triangle;
 
 public class Fragment1 extends Fragment {
 
-    public static final String TAG = "Fragment1";
-
     public Fragment1() {
 
     }
